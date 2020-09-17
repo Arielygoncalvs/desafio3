@@ -1,0 +1,167 @@
+html, body{
+    margin:0;
+    background-color:lightgray;
+}
+
+header{
+    background-color:lightgray;
+    color: gray;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo{width: 150px;
+    height: 75px;
+    position: absolute;
+    top: 0px;
+    margin-left: 3%;
+
+}
+
+#menu{
+    float: right;
+    margin-right: 4%;
+    list-style: none;
+}
+
+li{
+    float: left;
+    padding: 15 10 15 10;
+}
+
+li:hover{
+background-color:gray;
+}
+@media all and (max-width:768px) {
+    #menu{
+        visibility: hidden;
+    } 
+
+    .coluna, .dois, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin:10px auto;
+        float: none;
+    }
+
+     #logodiv{
+         width: 100%;
+         position: relative;
+         text-align: center;
+     }
+     #logo{
+         margin-left: 0px;
+         transform: translateX(-50%);
+     }
+     
+}
+
+#img_fundo{
+    background: url("meu-primeiro-site/livros.jpg");
+    height: 70%;
+    background-size: cover;
+}
+
+#titulo{
+    font-size: 80px;
+    color:black;
+    text-align: center;
+    padding-top: 10%; 
+}
+
+#subtitulo{
+    color: black;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 40px;
+}
+
+.coluna{
+    float: left;
+    padding: 0  5%;
+    position: relative;
+    width: 60%;
+ }
+
+ .dois{
+    width: 40%;
+}
+
+.p1{
+    font-size: 17px;
+    text-align: justify;
+    text-indent: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: black;
+}
+
+#h3{
+    color: black;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 25px;
+} 
+
+.video{
+    padding: 66px;
+}
+
+.quatro{
+    width: 15%;  
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.icone{
+    width: 65px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sobre{
+    width: 10%;
+    padding-left: 600px;
+}
+
+#h4{
+    text-align: center;
+    padding-top: 30%;
+    font-size: 25px;
+}
+
+.propostas{
+    text-align: center;
+    padding-top: 35%;
+    font-size: 25px;
+    padding-left:10%;
+    padding-right:10% ;
+}
+
+footer{
+    background-color: gray;
+    color: lightgray;
+    float: left;
+    text-align: center;
+    width: 98%;
+    padding:0 1%;
+}
+
+#acao{
+    text-align: center;
+     color: gray;
+     border: 2px gray solid ;
+     padding: 10px 20px 10px 20px;
+     margin: 45%;
+ }
+ 
+ .botao{
+     padding: 5%;
+ }
+
